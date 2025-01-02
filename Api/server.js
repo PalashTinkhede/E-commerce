@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyParser.json())
 
 app.use(cors({
-  origin:true,
+  origin:"https://e-commerce-lake-two-62.vercel.app",
   methods:[ "GET","POST","PUT","DELETE"],
   credentials:true
 }))
